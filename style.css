@@ -1,0 +1,103 @@
+body{
+    margin: 0 ;
+    background-image:url(./asosiy\ html\ uchun\ orqa\ fon.jpg); ;
+}
+/*
+bu yerda index.html uchun asosiy class container
+
+*/
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+.img1{
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 30%;
+   border: 2px solid yellow;
+
+}
+
+
+
+.name-h1{
+    text-align: center;
+    padding: 20px;
+    font-weight: bolder;
+    animation-name: name-h1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes name-h1{
+    0%{
+        color: blue;
+    }
+    20%{
+        color: rgb(170, 126, 64);
+    }
+    100%{
+        color: chocolate;
+    }
+}
+.yozuv{
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgb(68, 76, 92);
+    opacity: 0.7;
+    color: rgb(212, 216, 220);
+    padding: 2px 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation-duration: 5s;
+    animation-name: bg;
+   
+}
+
+
+.knopka{
+    position: fixed;
+    width: 70px;
+    left: 0;
+    top: 49%;
+    color: aliceblue;
+    border-radius: 50%;
+    animation-name: knopka;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes knopka{
+    0%{
+        left:0;
+        
+    }
+
+    100%{
+        left: 70px;
+
+    }
+}
+.row{
+    opacity: 0.7;
+    background-color: bisque;
+    padding: 30px;
+    border-radius: 10px;  
+}
+/*
+index2.html
+
+*/
+
+.glavniynom{
+    text-align: center;
+    color: darkblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.img2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border: 2px solid yellow;
+ 
+}
